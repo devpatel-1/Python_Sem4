@@ -1,6 +1,3 @@
-Here is a more cool 😎 emoji-style README.md for your repo — just paste it:
-
-⸻
 
 🐍✨ Python Semester 4 Practicals
 
