@@ -1,15 +1,17 @@
 # Write a program to check special number. (Number is equal to the sum of its divisors).
 
-n = input("Enter num to check that it is special or not : ")
+# Taking input
+num = int(input("Enter a number: "))
 
-sum = 0
+sum_div = 0
 
-n = int(n)
+# Finding divisors
+for i in range(1, num):
+    if num % i == 0:
+        sum_div += i
 
-for i in range(1, n):
-    if(n % i == 0): 
-        sum = sum + i
-if(sum == n):
-    print(f"{n} is a special num")
+# Checking special number
+if sum_div == num:
+    print("It is a Special Number")
 else:
-    print(f"{n} is not a special num")	
+    print("It is NOT a Special Number")
