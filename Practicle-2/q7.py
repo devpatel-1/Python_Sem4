@@ -4,26 +4,18 @@ a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 c = int(input("Enter third number: "))
 
-count = 0
-max_odd = None
+odd_numbers = []
 
 if a % 2 != 0:
-    count += 1
-    max_odd = a
-
+    odd_numbers.append(a)
 if b % 2 != 0:
-    count += 1
-    if max_odd is None or b > max_odd:
-        max_odd = b
-
+    odd_numbers.append(b)
 if c % 2 != 0:
-    count += 1
-    if max_odd is None or c > max_odd:
-        max_odd = c
+    odd_numbers.append(c)
 
-print("Total Odd Numbers =", count)
+print(f"\nOdd count: {len(odd_numbers)}")
 
-if count > 0:
-    print("Maximum Odd Number =", max_odd)
+if len(odd_numbers) > 0:
+    print(f"Maximum odd number: {max(odd_numbers)}")
 else:
-    print("No odd numbers found.")
+    print("No odd numbers found!")
