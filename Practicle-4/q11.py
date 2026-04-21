@@ -1,13 +1,14 @@
+# Write a program to create a regular expression which verifies whether given mobile number is valid or not.
+
+
 import re
 
-# Input mobile number
-mobile = input("Enter mobile number: ")
+num = input("Enter a mobile number: ")
 
-# Regular expression for valid mobile number
-pattern = r'^[6-9]\d{9}$'
+pattern = "^[6-9][0-9]{9}$"
 
-# Check validity
-if re.match(pattern, mobile):
+if re.match(pattern, num):
     print("Valid Mobile Number")
 else:
     print("Invalid Mobile Number")
+
