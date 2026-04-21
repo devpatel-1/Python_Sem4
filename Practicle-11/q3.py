@@ -6,7 +6,7 @@ from email.mime.image import MIMEImage
 # Sender and receiver details
 sender_email = "devapatel09092006@gmail.com"
 receiver_email = "24012011080@gnu.ac.in"
-password = "vlmaqhuzkhlhvkca"
+password = "vlfejjevwjkfeprvzkhlhvkca"
 
 # Create message object
 msg = MIMEMultipart()
