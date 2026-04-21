@@ -10,20 +10,19 @@
 # “===========================” 
 
 
-print ("===========================")
-name = input("Enter your name: ")
-enno = input("Enter your Enrollment Number: ")
-branch = input("Enter your Branch (CE/IT): ")
-age = input("Enter your Age: ")
-email = input("Enter Email ID: ")
-mobile = input("Enter Mobile Number: ")
+name = input("Entey your name: ")
+enrollment = input("Enter your enrollment number: ")
+branch = input("Enter your branch: ")
+age = input("Enter your age: ")
+email = input("Enter your email: ")
+mobile = input("Enter your mobile number: ")
 
 
 print("===========================")
 print(name)
-print("Enrollment No.:", enno)
+print("Enrollment No. :", enrollment)
 print("Branch:", branch)
 print("Age:", age, "years")
 print("Email:", email)
-print("Mobile No.:", mobile)
+print("Mobile No:", mobile)
 print("===========================")
