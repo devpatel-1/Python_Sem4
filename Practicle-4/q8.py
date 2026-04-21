@@ -1,15 +1,12 @@
-# Create and initialize a tuple
-my_tuple = (10, 20, 30, 40, 50)
+# Write a program to create and initialize the tuple. Also remove 3rd element from tuple.
 
-print("Original Tuple:", my_tuple)
+t = ("Dev", 12345, 20, "CE", "Pass")
 
-# Convert tuple to list
-temp_list = list(my_tuple)
+print("Original Tuple: ", t)
 
-# Remove 3rd element (index 2)
-temp_list.pop(2)
+temp = list(t)
+temp.pop(2)
 
-# Convert list back to tuple
-my_tuple = tuple(temp_list)
+t = tuple(temp)
 
-print("Tuple after removing 3rd element:", my_tuple)
+print("Updated Tuple: ", t)
